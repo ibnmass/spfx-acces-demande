@@ -1,0 +1,6 @@
+{
+  "$schema": "../.vscode/schemas/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://lasenegalaisedelautomo.sharepoint.com/sites/ITSupport/_layouts/15/workbench.aspx"
+}

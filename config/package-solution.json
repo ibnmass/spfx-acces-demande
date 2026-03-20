@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "acces-demande-client-side-solution",
+    "id": "c52e4f84-889f-427b-bf7b-6fdad10ed746",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "AccesDemande description"
+      },
+      "longDescription": {
+        "default": "AccesDemande description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "acces-demande Feature",
+        "description": "The feature that activates elements of the acces-demande solution.",
+        "id": "9645d1ac-d06d-42a0-a071-f71f9d71b4fa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/acces-demande.sppkg"
+  }
+}
