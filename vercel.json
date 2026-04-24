@@ -1,0 +1,4 @@
+{
+  "outputDirectory": "sharepoint/solution",
+  "buildCommand": "npm install && gulp bundle --ship && gulp package-solution --ship"
+}
