@@ -1,6 +1,6 @@
 #!/bin/bash
-npx heft build
-npx heft package-solution
+npx heft build --production
+npx heft package-solution --production
 mkdir -p public
 cp -r sharepoint/solution public/solution
 SPPKG=$(ls sharepoint/solution/*.sppkg | xargs basename)
