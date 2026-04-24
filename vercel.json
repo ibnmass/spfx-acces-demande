@@ -1,4 +1,4 @@
 {
   "outputDirectory": "sharepoint/solution",
-  "buildCommand": "npm install && npx heft bundle --production"
+  "buildCommand": "npm install && npx heft build && npx heft package-solution"
 }
